@@ -1,7 +1,8 @@
-export const maxDuration = 60;
-
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
+
+export const maxDuration = 60;
+
 export function GET(request: NextRequest) {
   return NextResponse.json(
     {
